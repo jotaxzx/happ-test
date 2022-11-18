@@ -12,7 +12,6 @@ const Acordeon = ({ data }) => {
                         <div className="accordion-item border border border-white py-3 ">
                             {
                                 accordion.map(item => (
-
                                     <>
                                         <h2 className="accordion-header " id={item.heading}>
                                             <button className="accordion-button text-white mt-4 py-4 " type="button" data-bs-toggle="collapse" data-bs-target={item.target} aria-expanded="true" aria-controls={item.controls}>
