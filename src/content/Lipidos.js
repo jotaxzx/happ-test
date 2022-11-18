@@ -14,13 +14,6 @@ export const Lipidos = () => {
 
     const resto = useRestOfElements(arr);
 
-    const dateFormat = (date) => {
-        const newDate =  Date.parse(date).toString().toLocaleString("en-US");
-
-        // return newDate.toLocaleString('en-GB', { timeZone: 'UTC' }).substring(0,10) || ""
-        return newDate
-        // console.log(newDate)
-    }
 
     return (
         <>

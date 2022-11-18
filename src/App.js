@@ -27,20 +27,14 @@ function App() {
   ];
 
   return (
-
     
       <div className='container mt-5  '>
         <div className="row">
           <div className='col'>
-            {/* {data.map((item, index) => (
-                <Acordeon key={index} name={item.name} content={item.content} heading={item.heading} target={item.target} controls={item.controls} />))} */}
             <Acordeon data={data} />
           </div>
         </div>
       </div>
-
-
-
   );
 }
 
